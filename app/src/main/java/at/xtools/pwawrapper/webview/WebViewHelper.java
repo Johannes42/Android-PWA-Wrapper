@@ -168,6 +168,9 @@ public class WebViewHelper {
                 }
             }
         });
+        // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        // WebView.setWebContentsDebuggingEnabled(true);
+        // }
     }
 
     // Lifecycle callbacks
